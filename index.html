@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log('------------- #4');
+          function sum(a, b) {
+              return a + b
+          }
+
+          function substr(a,b) {
+              return a - b
+          }
+
+          function multpl(a, b) {
+              return a * b
+          }
+
+          function div(a, b) {
+              return a / b
+          }
+
+          console.log('a = 9 \nb = 3');
+          console.log('a + b = ', sum(9, 3));
+          console.log('a - b = ', substr(9, 3));
+          console.log('a * b = ', multpl(9, 3));
+          console.log('a / b = ', div(9 ,3));
+        
+        
+        console.log('------------- #5');
+          function seq(k) {
+              for (let i = 1; i <= k; i++) {
+                  console.log(i);
+              }
+          }
+
+          seq(5);
+
+
+        console.log('------------- #6');
+          function revSeq(k) {
+              for (let i = k; i > 0; i--) {
+                  console.log(i);
+              }
+          }
+
+          revSeq(5);
+
+
+          console.log('------------- #7');
+            function pow(x, n) {
+                return x ** n
+            }
+
+            console.log('2 ^ 8 = ', pow(2, 8));
+            console.log('25 ^ 2 = ', pow(25, 2));
+
+
+        console.log('------------- #8');
+          function isBigger(first, second) {
+              if (first > second) {
+                  return true;
+              }
+              else {
+                  return false;
+              }
+          }
+
+          console.log('8 > 10 - this is ', isBigger(8, 10));
+          console.log('99 > 43 - this is ', isBigger(99, 43));
+
+
+        console.log('------------- #9');
+          function isSmaller(first, second) {
+              if (first < second) {
+                  return true;
+              }
+              else {
+                  return false;
+              }
+          }
+
+            console.log('18 < 3 - this is ', isSmaller(18, 3));
+            console.log('-965 < -965 - this is ', isSmaller(-365, -365));
+            console.log('0 < 2021 - this is ', isSmaller(0, 2021));
+    </script>
+</body>
+</html>
